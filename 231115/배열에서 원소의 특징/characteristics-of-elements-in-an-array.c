@@ -8,6 +8,6 @@ int main() {
         scanf("%d", &arr[i]);
         if(!(arr[i] % 3)) break;
     }
-    printf("%d", arr[i - 2]);
+    printf("%d", arr[i - 1]);
     return 0;
 }
