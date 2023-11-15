@@ -11,7 +11,7 @@ int main() {
         flag = 1;
         for(int j = 0; j < n2; ++j)
         {
-            if(arr1[i + j] != arr2[i + j]) flag = 0;
+            if(arr1[i + j] != arr2[j]) flag = 0;
         }
         if(flag) { printf("Yes"); break; }
     }
